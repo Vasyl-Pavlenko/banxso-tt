@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: $backgroundColor;
+  border: 1px solid $mainRedColor;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+
+  &__icon {
+    font-size: 48px;
+    color: $mainRedColor;
+  }
+
+  &__message {
+    margin-top: 12px;
+    font-size: 18px;
+    color: $mainRedColor;
+  }
+}

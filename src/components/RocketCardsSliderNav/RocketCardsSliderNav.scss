@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.rocket-cards-slider-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  &__button {
+    padding: 21px;
+    aspect-ratio: 1 / 1;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all $transitionTime linear;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

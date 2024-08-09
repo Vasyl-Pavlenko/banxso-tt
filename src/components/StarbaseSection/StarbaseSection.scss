@@ -1,0 +1,29 @@
+.starbase-section {
+  position: relative;
+  height: 866px;
+  background: url('/images/Starbase.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 16px;  
+
+  &__content {
+    position: absolute;
+    bottom: 32px;
+    left: 50px;
+    width: 454px;
+
+    &-title {
+      font-size: 64px;
+      line-height: 76px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    &-description {
+      font-size: 14px;
+      line-height: 24px;
+      text-align: left;
+      margin-top: 24px;
+    }
+  }
+}

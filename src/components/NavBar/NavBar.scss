@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  text-transform: uppercase;
+
+  &-list {
+    display: flex;
+    gap: 48px;
+
+    &__item {
+      cursor: pointer;
+      transition: all $transitionTime linear;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &-logo {
+    padding: 8px 12px;
+    border: 1px solid $white;
+    border-radius: $borderRadius;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    &:hover {
+      background-color: $white;
+      color: $mainBlackColor;
+    }
+  }
+
+  &__contact-button {
+    padding: 8px 12px;
+    text-transform: uppercase;
+    color: $white;
+    background: none;
+    border: 1px solid $white;
+    border-radius: $borderRadius;
+    cursor: pointer;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all $transitionTime linear;
+    &:hover {
+      background-color: $white;
+      color: $mainBlackColor;
+    }
+  }
+}

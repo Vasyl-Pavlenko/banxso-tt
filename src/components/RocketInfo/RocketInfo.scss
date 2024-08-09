@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+.rocket-info {
+  &__wrapper {
+    display: flex;
+    gap: 24px;
+    max-height: 530px;
+    margin-top: 32px;
+    padding: 24px;
+    border: 1px solid $border;
+    border-radius: 40px;
+  }
+
+  &__image {
+    flex: 2;
+    object-fit: cover;
+    overflow: auto;
+    border-radius: 20px;
+    border: 1px solid $border;
+  }
+
+  &__statistics {
+    flex: 1;
+    text-transform: uppercase;
+  }
+
+  &__statistics-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__properties {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 12px;
+    font-size: 14px;
+  }
+
+  &__property{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $border;
+  }
+}

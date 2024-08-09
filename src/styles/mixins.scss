@@ -1,0 +1,17 @@
+@mixin gridAlign {
+  display: grid;
+  justify-content: center;
+  column-gap: 20px;
+
+  grid-template-columns: repeat(12, 1fr);
+}
+
+@mixin paddingInline {
+  width: $containerWidth;
+  padding-inline: 0;
+  margin-inline: auto;
+
+  @media (max-width: $containerWidth) {
+    padding-inline: 32px;
+  }
+}

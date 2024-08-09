@@ -1,0 +1,74 @@
+[
+  {
+    "id": 11,
+    "name": "Dave Johnson",
+    "position": "St. Mechanic",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 12,
+    "name": "Dave Johnson",
+    "position": "St. Mechanic",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 1,
+    "name": "Elon Musk",
+    "position": "Chief Engineer",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 2,
+    "name": "Gwynne Shotwell",
+    "position": "President and COO",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 3,
+    "name": "Hans Koenigsmann",
+    "position": "VP of Mission Assurance",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 4,
+    "name": "Tom Mueller",
+    "position": "VP of Propulsion Engineering",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 5,
+    "name": "John Insprucker",
+    "position": "Principal Integration Engineer",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 6,
+    "name": "Jessica Anderson",
+    "position": "Launch Engineer",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 7,
+    "name": "Mark Juncosa",
+    "position": "VP of Vehicle Engineering",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 8,
+    "name": "Lauren Lyons",
+    "position": "Starship Systems Engineer",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 9,
+    "name": "Robert Shotwell",
+    "position": "Dragon Chief Engineer",
+    "photo": "images/Team.webp"
+  },
+  {
+    "id": 10,
+    "name": "Kate Tice",
+    "position": "Senior Systems Engineer",
+    "photo": "images/Team.webp"
+  }
+]

@@ -1,0 +1,12 @@
+@import './styles/variables.scss';
+
+:root {
+  font-family: Rubik, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color: $white;
+  background-color: $backgroundColor;
+}
+
+html {
+  scroll-behavior: smooth;
+}

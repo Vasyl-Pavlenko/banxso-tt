@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Starship capabilities",
+    "description": "As the most powerful launch system ever developed, Starship will be able to carry up to 100 people on long-duration, interplanetary flights. Starship will also help enable satellite delivery, the development of a Moon base, and point-to-point transport here on Earth.",
+    "image": "images/Starship.webp"
+  },
+  {
+    "id": 2,
+    "title": "Lunar Gateway",
+    "description": "The Lunar Gateway is a planned space station in orbit around the Moon. It will serve as a staging point for lunar surface missions and provide a platform for scientific research and international cooperation.",
+    "image": "images/Starship.webp"
+  },
+  {
+    "id": 3,
+    "title": "Asteroid Mining",
+    "description": "Asteroid mining involves extracting valuable minerals and resources from asteroids. This emerging industry has the potential to provide materials for space construction and support sustainable space exploration.",
+    "image": "images/Starship.webp"
+  },
+  {
+    "id": 4,
+    "title": "Exoplanet Discovery",
+    "description": "The search for exoplanets—planets outside our solar system—has led to the discovery of thousands of new worlds. These findings help us understand planetary formation and the potential for life elsewhere in the universe.",
+    "image": "images/Starship.webp"
+  },
+  {
+    "id": 5,
+    "title": "Human Spaceflight",
+    "description": "Human spaceflight missions are essential for advancing our capabilities in space exploration. These missions include crewed flights to the International Space Station, the Moon, and eventually Mars.",
+    "image": "images/Starship.webp"
+  },
+  {
+    "id": 6,
+    "title": "Space Tourism",
+    "description": "Space tourism is becoming a reality, offering private individuals the opportunity to experience space travel. Companies are developing commercial spacecraft to take tourists on suborbital and orbital flights.",
+    "image": "images/Starship.webp"
+  }
+]

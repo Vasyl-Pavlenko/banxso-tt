@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.broken-rocket {
+  width: 600px;
+  margin: 200px auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;  
+  animation: float 4s ease-in-out infinite;
+
+  &__title {
+    color: #ff6347;
+  }
+
+  &__description {
+    margin-top: 50px;
+  }
+
+  &__button {
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: $mainBlackColor;
+    color: $white;
+    border: 1px solid $white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition:all $transitionTime linear;
+    
+    &:hover {
+      background-color: $white;
+      color: $mainBlackColor;
+    }
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

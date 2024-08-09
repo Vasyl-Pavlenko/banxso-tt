@@ -1,0 +1,15 @@
+@import './styles/reset.scss';
+@import './styles/fonts.scss';
+@import './styles/typography.scss';
+@import './styles/variables.scss';
+
+#root {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: $containerWidth;
+  margin: 0 auto;
+
+  padding-top: 48px;
+}
