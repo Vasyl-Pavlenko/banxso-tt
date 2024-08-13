@@ -46,7 +46,7 @@ The task was to develop a web application that:
 1. **Clone the repository:**
    ```bash
    git clone https://vasyl-pavlenko.github.io/banxso-tt/
-   cd your-repository
+   cd banxso-tt
    ```
 
 2. **Install dependencies:**
